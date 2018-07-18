@@ -1,0 +1,618 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A8ACE0620FF477000895CED /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A8ACE0520FF477000895CED /* AppDelegate.m */; };
+		0A8ACE0920FF477000895CED /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A8ACE0820FF477000895CED /* ViewController.m */; };
+		0A8ACE0C20FF477000895CED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A8ACE0A20FF477000895CED /* Main.storyboard */; };
+		0A8ACE0E20FF477100895CED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A8ACE0D20FF477100895CED /* Assets.xcassets */; };
+		0A8ACE1120FF477100895CED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A8ACE0F20FF477100895CED /* LaunchScreen.storyboard */; };
+		0A8ACE1420FF477100895CED /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A8ACE1320FF477100895CED /* main.m */; };
+		0A8ACE1E20FF477100895CED /* EarthMoonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A8ACE1D20FF477100895CED /* EarthMoonTests.m */; };
+		0A8ACE2920FF477100895CED /* EarthMoonUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A8ACE2820FF477100895CED /* EarthMoonUITests.m */; };
+		0A8ACE3E20FF48EC00895CED /* AGLKVertexAttribArrayBuffer.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A8ACE3720FF48EC00895CED /* AGLKVertexAttribArrayBuffer.m */; };
+		0A8ACE3F20FF48EC00895CED /* Earth512x256.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0A8ACE3A20FF48EC00895CED /* Earth512x256.jpg */; };
+		0A8ACE4020FF48EC00895CED /* sphere.obj in Resources */ = {isa = PBXBuildFile; fileRef = 0A8ACE3C20FF48EC00895CED /* sphere.obj */; };
+		0A8ACE4120FF48EC00895CED /* Moon256x128.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A8ACE3D20FF48EC00895CED /* Moon256x128.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0A8ACE1A20FF477100895CED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0A8ACDF920FF477000895CED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0A8ACE0020FF477000895CED;
+			remoteInfo = EarthMoon;
+		};
+		0A8ACE2520FF477100895CED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0A8ACDF920FF477000895CED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0A8ACE0020FF477000895CED;
+			remoteInfo = EarthMoon;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0A8ACE0120FF477000895CED /* EarthMoon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EarthMoon.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A8ACE0420FF477000895CED /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0A8ACE0520FF477000895CED /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0A8ACE0720FF477000895CED /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0A8ACE0820FF477000895CED /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0A8ACE0B20FF477000895CED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0A8ACE0D20FF477100895CED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0A8ACE1020FF477100895CED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0A8ACE1220FF477100895CED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A8ACE1320FF477100895CED /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0A8ACE1920FF477100895CED /* EarthMoonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EarthMoonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A8ACE1D20FF477100895CED /* EarthMoonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EarthMoonTests.m; sourceTree = "<group>"; };
+		0A8ACE1F20FF477100895CED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A8ACE2420FF477100895CED /* EarthMoonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EarthMoonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A8ACE2820FF477100895CED /* EarthMoonUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EarthMoonUITests.m; sourceTree = "<group>"; };
+		0A8ACE2A20FF477100895CED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A8ACE3720FF48EC00895CED /* AGLKVertexAttribArrayBuffer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGLKVertexAttribArrayBuffer.m; sourceTree = "<group>"; };
+		0A8ACE3820FF48EC00895CED /* AGLKVertexAttribArrayBuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGLKVertexAttribArrayBuffer.h; sourceTree = "<group>"; };
+		0A8ACE3A20FF48EC00895CED /* Earth512x256.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Earth512x256.jpg; sourceTree = "<group>"; };
+		0A8ACE3B20FF48EC00895CED /* sphere.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sphere.h; sourceTree = "<group>"; };
+		0A8ACE3C20FF48EC00895CED /* sphere.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = sphere.obj; sourceTree = "<group>"; };
+		0A8ACE3D20FF48EC00895CED /* Moon256x128.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Moon256x128.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0A8ACDFE20FF477000895CED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A8ACE1620FF477100895CED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A8ACE2120FF477100895CED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A8ACDF820FF477000895CED = {
+			isa = PBXGroup;
+			children = (
+				0A8ACE0320FF477000895CED /* EarthMoon */,
+				0A8ACE1C20FF477100895CED /* EarthMoonTests */,
+				0A8ACE2720FF477100895CED /* EarthMoonUITests */,
+				0A8ACE0220FF477000895CED /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0A8ACE0220FF477000895CED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0A8ACE0120FF477000895CED /* EarthMoon.app */,
+				0A8ACE1920FF477100895CED /* EarthMoonTests.xctest */,
+				0A8ACE2420FF477100895CED /* EarthMoonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0A8ACE0320FF477000895CED /* EarthMoon */ = {
+			isa = PBXGroup;
+			children = (
+				0A8ACE3620FF48EC00895CED /* Kit */,
+				0A8ACE3920FF48EC00895CED /* res */,
+				0A8ACE0420FF477000895CED /* AppDelegate.h */,
+				0A8ACE0520FF477000895CED /* AppDelegate.m */,
+				0A8ACE0720FF477000895CED /* ViewController.h */,
+				0A8ACE0820FF477000895CED /* ViewController.m */,
+				0A8ACE0A20FF477000895CED /* Main.storyboard */,
+				0A8ACE0D20FF477100895CED /* Assets.xcassets */,
+				0A8ACE0F20FF477100895CED /* LaunchScreen.storyboard */,
+				0A8ACE1220FF477100895CED /* Info.plist */,
+				0A8ACE1320FF477100895CED /* main.m */,
+			);
+			path = EarthMoon;
+			sourceTree = "<group>";
+		};
+		0A8ACE1C20FF477100895CED /* EarthMoonTests */ = {
+			isa = PBXGroup;
+			children = (
+				0A8ACE1D20FF477100895CED /* EarthMoonTests.m */,
+				0A8ACE1F20FF477100895CED /* Info.plist */,
+			);
+			path = EarthMoonTests;
+			sourceTree = "<group>";
+		};
+		0A8ACE2720FF477100895CED /* EarthMoonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0A8ACE2820FF477100895CED /* EarthMoonUITests.m */,
+				0A8ACE2A20FF477100895CED /* Info.plist */,
+			);
+			path = EarthMoonUITests;
+			sourceTree = "<group>";
+		};
+		0A8ACE3620FF48EC00895CED /* Kit */ = {
+			isa = PBXGroup;
+			children = (
+				0A8ACE3720FF48EC00895CED /* AGLKVertexAttribArrayBuffer.m */,
+				0A8ACE3820FF48EC00895CED /* AGLKVertexAttribArrayBuffer.h */,
+			);
+			path = Kit;
+			sourceTree = "<group>";
+		};
+		0A8ACE3920FF48EC00895CED /* res */ = {
+			isa = PBXGroup;
+			children = (
+				0A8ACE3A20FF48EC00895CED /* Earth512x256.jpg */,
+				0A8ACE3B20FF48EC00895CED /* sphere.h */,
+				0A8ACE3C20FF48EC00895CED /* sphere.obj */,
+				0A8ACE3D20FF48EC00895CED /* Moon256x128.png */,
+			);
+			path = res;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0A8ACE0020FF477000895CED /* EarthMoon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A8ACE2D20FF477100895CED /* Build configuration list for PBXNativeTarget "EarthMoon" */;
+			buildPhases = (
+				0A8ACDFD20FF477000895CED /* Sources */,
+				0A8ACDFE20FF477000895CED /* Frameworks */,
+				0A8ACDFF20FF477000895CED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EarthMoon;
+			productName = EarthMoon;
+			productReference = 0A8ACE0120FF477000895CED /* EarthMoon.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0A8ACE1820FF477100895CED /* EarthMoonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A8ACE3020FF477100895CED /* Build configuration list for PBXNativeTarget "EarthMoonTests" */;
+			buildPhases = (
+				0A8ACE1520FF477100895CED /* Sources */,
+				0A8ACE1620FF477100895CED /* Frameworks */,
+				0A8ACE1720FF477100895CED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0A8ACE1B20FF477100895CED /* PBXTargetDependency */,
+			);
+			name = EarthMoonTests;
+			productName = EarthMoonTests;
+			productReference = 0A8ACE1920FF477100895CED /* EarthMoonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0A8ACE2320FF477100895CED /* EarthMoonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A8ACE3320FF477100895CED /* Build configuration list for PBXNativeTarget "EarthMoonUITests" */;
+			buildPhases = (
+				0A8ACE2020FF477100895CED /* Sources */,
+				0A8ACE2120FF477100895CED /* Frameworks */,
+				0A8ACE2220FF477100895CED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0A8ACE2620FF477100895CED /* PBXTargetDependency */,
+			);
+			name = EarthMoonUITests;
+			productName = EarthMoonUITests;
+			productReference = 0A8ACE2420FF477100895CED /* EarthMoonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0A8ACDF920FF477000895CED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = lly;
+				TargetAttributes = {
+					0A8ACE0020FF477000895CED = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					0A8ACE1820FF477100895CED = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 0A8ACE0020FF477000895CED;
+					};
+					0A8ACE2320FF477100895CED = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 0A8ACE0020FF477000895CED;
+					};
+				};
+			};
+			buildConfigurationList = 0A8ACDFC20FF477000895CED /* Build configuration list for PBXProject "EarthMoon" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0A8ACDF820FF477000895CED;
+			productRefGroup = 0A8ACE0220FF477000895CED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0A8ACE0020FF477000895CED /* EarthMoon */,
+				0A8ACE1820FF477100895CED /* EarthMoonTests */,
+				0A8ACE2320FF477100895CED /* EarthMoonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0A8ACDFF20FF477000895CED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A8ACE3F20FF48EC00895CED /* Earth512x256.jpg in Resources */,
+				0A8ACE4120FF48EC00895CED /* Moon256x128.png in Resources */,
+				0A8ACE1120FF477100895CED /* LaunchScreen.storyboard in Resources */,
+				0A8ACE0E20FF477100895CED /* Assets.xcassets in Resources */,
+				0A8ACE0C20FF477000895CED /* Main.storyboard in Resources */,
+				0A8ACE4020FF48EC00895CED /* sphere.obj in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A8ACE1720FF477100895CED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A8ACE2220FF477100895CED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0A8ACDFD20FF477000895CED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A8ACE3E20FF48EC00895CED /* AGLKVertexAttribArrayBuffer.m in Sources */,
+				0A8ACE0920FF477000895CED /* ViewController.m in Sources */,
+				0A8ACE1420FF477100895CED /* main.m in Sources */,
+				0A8ACE0620FF477000895CED /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A8ACE1520FF477100895CED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A8ACE1E20FF477100895CED /* EarthMoonTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A8ACE2020FF477100895CED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A8ACE2920FF477100895CED /* EarthMoonUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0A8ACE1B20FF477100895CED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0A8ACE0020FF477000895CED /* EarthMoon */;
+			targetProxy = 0A8ACE1A20FF477100895CED /* PBXContainerItemProxy */;
+		};
+		0A8ACE2620FF477100895CED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0A8ACE0020FF477000895CED /* EarthMoon */;
+			targetProxy = 0A8ACE2520FF477100895CED /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0A8ACE0A20FF477000895CED /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0A8ACE0B20FF477000895CED /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0A8ACE0F20FF477100895CED /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0A8ACE1020FF477100895CED /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0A8ACE2B20FF477100895CED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0A8ACE2C20FF477100895CED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0A8ACE2E20FF477100895CED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PW2BL84NY9;
+				INFOPLIST_FILE = EarthMoon/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lly.EarthMoon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0A8ACE2F20FF477100895CED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PW2BL84NY9;
+				INFOPLIST_FILE = EarthMoon/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lly.EarthMoon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0A8ACE3120FF477100895CED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PW2BL84NY9;
+				INFOPLIST_FILE = EarthMoonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lly.EarthMoonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EarthMoon.app/EarthMoon";
+			};
+			name = Debug;
+		};
+		0A8ACE3220FF477100895CED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PW2BL84NY9;
+				INFOPLIST_FILE = EarthMoonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lly.EarthMoonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EarthMoon.app/EarthMoon";
+			};
+			name = Release;
+		};
+		0A8ACE3420FF477100895CED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PW2BL84NY9;
+				INFOPLIST_FILE = EarthMoonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lly.EarthMoonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EarthMoon;
+			};
+			name = Debug;
+		};
+		0A8ACE3520FF477100895CED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PW2BL84NY9;
+				INFOPLIST_FILE = EarthMoonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lly.EarthMoonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EarthMoon;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0A8ACDFC20FF477000895CED /* Build configuration list for PBXProject "EarthMoon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A8ACE2B20FF477100895CED /* Debug */,
+				0A8ACE2C20FF477100895CED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A8ACE2D20FF477100895CED /* Build configuration list for PBXNativeTarget "EarthMoon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A8ACE2E20FF477100895CED /* Debug */,
+				0A8ACE2F20FF477100895CED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A8ACE3020FF477100895CED /* Build configuration list for PBXNativeTarget "EarthMoonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A8ACE3120FF477100895CED /* Debug */,
+				0A8ACE3220FF477100895CED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A8ACE3320FF477100895CED /* Build configuration list for PBXNativeTarget "EarthMoonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A8ACE3420FF477100895CED /* Debug */,
+				0A8ACE3520FF477100895CED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0A8ACDF920FF477000895CED /* Project object */;
+}

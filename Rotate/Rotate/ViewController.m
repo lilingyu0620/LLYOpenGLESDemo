@@ -131,6 +131,7 @@
     projectionMatrix = GLKMatrix4Scale(projectionMatrix, 1.0f, 1.0f, 1.0f);
     self.mEffect.transform.projectionMatrix = projectionMatrix;
     
+    //模型初始矩阵
     GLKMatrix4 modelViewMatrix = GLKMatrix4Translate(GLKMatrix4Identity, 0.0f, 0.0f, -2.0f);
     self.mEffect.transform.modelviewMatrix = modelViewMatrix;
     
