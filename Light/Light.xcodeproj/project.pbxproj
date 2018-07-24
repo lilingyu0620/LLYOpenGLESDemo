@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A68767A21074DA200D7D2E2 /* sceneUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A68767621074DA200D7D2E2 /* sceneUtil.m */; };
+		0A68767B21074DA200D7D2E2 /* AGLKVertexAttribArrayBuffer.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A68767721074DA200D7D2E2 /* AGLKVertexAttribArrayBuffer.m */; };
 		0A79026D2101FD44004037A1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A79026C2101FD44004037A1 /* AppDelegate.m */; };
 		0A7902702101FD44004037A1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A79026F2101FD44004037A1 /* ViewController.m */; };
 		0A7902732101FD44004037A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A7902712101FD44004037A1 /* Main.storyboard */; };
@@ -35,6 +37,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0A68767621074DA200D7D2E2 /* sceneUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = sceneUtil.m; sourceTree = "<group>"; };
+		0A68767721074DA200D7D2E2 /* AGLKVertexAttribArrayBuffer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGLKVertexAttribArrayBuffer.m; sourceTree = "<group>"; };
+		0A68767821074DA200D7D2E2 /* sceneUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sceneUtil.h; sourceTree = "<group>"; };
+		0A68767921074DA200D7D2E2 /* AGLKVertexAttribArrayBuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGLKVertexAttribArrayBuffer.h; sourceTree = "<group>"; };
 		0A7902682101FD44004037A1 /* Light.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Light.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A79026B2101FD44004037A1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0A79026C2101FD44004037A1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -78,6 +84,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0A68767521074DA200D7D2E2 /* Kit */ = {
+			isa = PBXGroup;
+			children = (
+				0A68767921074DA200D7D2E2 /* AGLKVertexAttribArrayBuffer.h */,
+				0A68767721074DA200D7D2E2 /* AGLKVertexAttribArrayBuffer.m */,
+				0A68767821074DA200D7D2E2 /* sceneUtil.h */,
+				0A68767621074DA200D7D2E2 /* sceneUtil.m */,
+			);
+			path = Kit;
+			sourceTree = "<group>";
+		};
 		0A79025F2101FD44004037A1 = {
 			isa = PBXGroup;
 			children = (
@@ -101,6 +118,7 @@
 		0A79026A2101FD44004037A1 /* Light */ = {
 			isa = PBXGroup;
 			children = (
+				0A68767521074DA200D7D2E2 /* Kit */,
 				0A79026B2101FD44004037A1 /* AppDelegate.h */,
 				0A79026C2101FD44004037A1 /* AppDelegate.m */,
 				0A79026E2101FD44004037A1 /* ViewController.h */,
@@ -264,6 +282,8 @@
 			files = (
 				0A7902702101FD44004037A1 /* ViewController.m in Sources */,
 				0A79027B2101FD46004037A1 /* main.m in Sources */,
+				0A68767B21074DA200D7D2E2 /* AGLKVertexAttribArrayBuffer.m in Sources */,
+				0A68767A21074DA200D7D2E2 /* sceneUtil.m in Sources */,
 				0A79026D2101FD44004037A1 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
