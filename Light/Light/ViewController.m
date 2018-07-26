@@ -149,7 +149,7 @@
     [self.extraEffect prepareToDraw];
     [self.extraBuffer drawArrayWithMode:GL_LINES startVertexIndex:0 numberOfVertices:NUM_NORMAL_LINE_VERTS];
     
-    self.extraEffect.constantColor = GLKVector4Make(1.0, 1.0, 0.0, 1.0);
+    self.extraEffect.constantColor = GLKVector4Make(1.0, 0.0, 0.0, 1.0);
     [self.extraEffect prepareToDraw];
     [self.extraBuffer drawArrayWithMode:GL_LINES startVertexIndex:0 numberOfVertices:NUM_LINE_VERTS - NUM_NORMAL_LINE_VERTS];
     
