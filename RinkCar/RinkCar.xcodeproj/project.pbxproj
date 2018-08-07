@@ -1,0 +1,628 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A78106E21197E7F004A0771 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A78106D21197E7F004A0771 /* AppDelegate.m */; };
+		0A78107121197E7F004A0771 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A78107021197E7F004A0771 /* ViewController.m */; };
+		0A78107421197E7F004A0771 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A78107221197E7F004A0771 /* Main.storyboard */; };
+		0A78107621197E80004A0771 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A78107521197E80004A0771 /* Assets.xcassets */; };
+		0A78107921197E80004A0771 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A78107721197E80004A0771 /* LaunchScreen.storyboard */; };
+		0A78107C21197E80004A0771 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A78107B21197E80004A0771 /* main.m */; };
+		0A78108621197E81004A0771 /* RinkCarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A78108521197E81004A0771 /* RinkCarTests.m */; };
+		0A78109121197E81004A0771 /* RinkCarUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A78109021197E81004A0771 /* RinkCarUITests.m */; };
+		0A7810A621199A4E004A0771 /* SceneCar.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A78109E21199A4D004A0771 /* SceneCar.m */; };
+		0A7810A721199A4E004A0771 /* SceneCarModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A78109F21199A4E004A0771 /* SceneCarModel.m */; };
+		0A7810A821199A4E004A0771 /* SceneRinkModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A7810A421199A4E004A0771 /* SceneRinkModel.m */; };
+		0A7810AD21199A7E004A0771 /* SceneMesh.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A7810A921199A7E004A0771 /* SceneMesh.m */; };
+		0A7810AE21199A7E004A0771 /* SceneModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A7810AB21199A7E004A0771 /* SceneModel.m */; };
+		0A7810B121199AB0004A0771 /* AGLKVertexAttribArrayBuffer.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A7810B021199AB0004A0771 /* AGLKVertexAttribArrayBuffer.m */; };
+		0A7810B421199D03004A0771 /* AGLKContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A7810B321199D03004A0771 /* AGLKContext.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0A78108221197E80004A0771 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0A78106121197E7F004A0771 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0A78106821197E7F004A0771;
+			remoteInfo = RinkCar;
+		};
+		0A78108D21197E81004A0771 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0A78106121197E7F004A0771 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0A78106821197E7F004A0771;
+			remoteInfo = RinkCar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0A78106921197E7F004A0771 /* RinkCar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RinkCar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A78106C21197E7F004A0771 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0A78106D21197E7F004A0771 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0A78106F21197E7F004A0771 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0A78107021197E7F004A0771 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0A78107321197E7F004A0771 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0A78107521197E80004A0771 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0A78107821197E80004A0771 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0A78107A21197E80004A0771 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A78107B21197E80004A0771 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0A78108121197E80004A0771 /* RinkCarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RinkCarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A78108521197E81004A0771 /* RinkCarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RinkCarTests.m; sourceTree = "<group>"; };
+		0A78108721197E81004A0771 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A78108C21197E81004A0771 /* RinkCarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RinkCarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A78109021197E81004A0771 /* RinkCarUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RinkCarUITests.m; sourceTree = "<group>"; };
+		0A78109221197E81004A0771 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A78109E21199A4D004A0771 /* SceneCar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SceneCar.m; sourceTree = "<group>"; };
+		0A78109F21199A4E004A0771 /* SceneCarModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SceneCarModel.m; sourceTree = "<group>"; };
+		0A7810A021199A4E004A0771 /* bumperRink.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bumperRink.h; sourceTree = "<group>"; };
+		0A7810A121199A4E004A0771 /* SceneCar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SceneCar.h; sourceTree = "<group>"; };
+		0A7810A221199A4E004A0771 /* SceneCarModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SceneCarModel.h; sourceTree = "<group>"; };
+		0A7810A321199A4E004A0771 /* SceneRinkModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SceneRinkModel.h; sourceTree = "<group>"; };
+		0A7810A421199A4E004A0771 /* SceneRinkModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SceneRinkModel.m; sourceTree = "<group>"; };
+		0A7810A521199A4E004A0771 /* bumperCar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bumperCar.h; sourceTree = "<group>"; };
+		0A7810A921199A7E004A0771 /* SceneMesh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SceneMesh.m; sourceTree = "<group>"; };
+		0A7810AA21199A7E004A0771 /* SceneMesh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SceneMesh.h; sourceTree = "<group>"; };
+		0A7810AB21199A7E004A0771 /* SceneModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SceneModel.m; sourceTree = "<group>"; };
+		0A7810AC21199A7E004A0771 /* SceneModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SceneModel.h; sourceTree = "<group>"; };
+		0A7810AF21199AB0004A0771 /* AGLKVertexAttribArrayBuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGLKVertexAttribArrayBuffer.h; sourceTree = "<group>"; };
+		0A7810B021199AB0004A0771 /* AGLKVertexAttribArrayBuffer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGLKVertexAttribArrayBuffer.m; sourceTree = "<group>"; };
+		0A7810B221199D03004A0771 /* AGLKContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGLKContext.h; sourceTree = "<group>"; };
+		0A7810B321199D03004A0771 /* AGLKContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGLKContext.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0A78106621197E7F004A0771 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A78107E21197E80004A0771 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A78108921197E81004A0771 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A78106021197E7F004A0771 = {
+			isa = PBXGroup;
+			children = (
+				0A78106B21197E7F004A0771 /* RinkCar */,
+				0A78108421197E81004A0771 /* RinkCarTests */,
+				0A78108F21197E81004A0771 /* RinkCarUITests */,
+				0A78106A21197E7F004A0771 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0A78106A21197E7F004A0771 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0A78106921197E7F004A0771 /* RinkCar.app */,
+				0A78108121197E80004A0771 /* RinkCarTests.xctest */,
+				0A78108C21197E81004A0771 /* RinkCarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0A78106B21197E7F004A0771 /* RinkCar */ = {
+			isa = PBXGroup;
+			children = (
+				0A7810B221199D03004A0771 /* AGLKContext.h */,
+				0A7810B321199D03004A0771 /* AGLKContext.m */,
+				0A7810AF21199AB0004A0771 /* AGLKVertexAttribArrayBuffer.h */,
+				0A7810B021199AB0004A0771 /* AGLKVertexAttribArrayBuffer.m */,
+				0A7810AA21199A7E004A0771 /* SceneMesh.h */,
+				0A7810A921199A7E004A0771 /* SceneMesh.m */,
+				0A7810AC21199A7E004A0771 /* SceneModel.h */,
+				0A7810AB21199A7E004A0771 /* SceneModel.m */,
+				0A7810A521199A4E004A0771 /* bumperCar.h */,
+				0A7810A021199A4E004A0771 /* bumperRink.h */,
+				0A7810A121199A4E004A0771 /* SceneCar.h */,
+				0A78109E21199A4D004A0771 /* SceneCar.m */,
+				0A7810A221199A4E004A0771 /* SceneCarModel.h */,
+				0A78109F21199A4E004A0771 /* SceneCarModel.m */,
+				0A7810A321199A4E004A0771 /* SceneRinkModel.h */,
+				0A7810A421199A4E004A0771 /* SceneRinkModel.m */,
+				0A78106C21197E7F004A0771 /* AppDelegate.h */,
+				0A78106D21197E7F004A0771 /* AppDelegate.m */,
+				0A78106F21197E7F004A0771 /* ViewController.h */,
+				0A78107021197E7F004A0771 /* ViewController.m */,
+				0A78107221197E7F004A0771 /* Main.storyboard */,
+				0A78107521197E80004A0771 /* Assets.xcassets */,
+				0A78107721197E80004A0771 /* LaunchScreen.storyboard */,
+				0A78107A21197E80004A0771 /* Info.plist */,
+				0A78107B21197E80004A0771 /* main.m */,
+			);
+			path = RinkCar;
+			sourceTree = "<group>";
+		};
+		0A78108421197E81004A0771 /* RinkCarTests */ = {
+			isa = PBXGroup;
+			children = (
+				0A78108521197E81004A0771 /* RinkCarTests.m */,
+				0A78108721197E81004A0771 /* Info.plist */,
+			);
+			path = RinkCarTests;
+			sourceTree = "<group>";
+		};
+		0A78108F21197E81004A0771 /* RinkCarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0A78109021197E81004A0771 /* RinkCarUITests.m */,
+				0A78109221197E81004A0771 /* Info.plist */,
+			);
+			path = RinkCarUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0A78106821197E7F004A0771 /* RinkCar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A78109521197E81004A0771 /* Build configuration list for PBXNativeTarget "RinkCar" */;
+			buildPhases = (
+				0A78106521197E7F004A0771 /* Sources */,
+				0A78106621197E7F004A0771 /* Frameworks */,
+				0A78106721197E7F004A0771 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RinkCar;
+			productName = RinkCar;
+			productReference = 0A78106921197E7F004A0771 /* RinkCar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0A78108021197E80004A0771 /* RinkCarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A78109821197E81004A0771 /* Build configuration list for PBXNativeTarget "RinkCarTests" */;
+			buildPhases = (
+				0A78107D21197E80004A0771 /* Sources */,
+				0A78107E21197E80004A0771 /* Frameworks */,
+				0A78107F21197E80004A0771 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0A78108321197E80004A0771 /* PBXTargetDependency */,
+			);
+			name = RinkCarTests;
+			productName = RinkCarTests;
+			productReference = 0A78108121197E80004A0771 /* RinkCarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0A78108B21197E81004A0771 /* RinkCarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A78109B21197E81004A0771 /* Build configuration list for PBXNativeTarget "RinkCarUITests" */;
+			buildPhases = (
+				0A78108821197E81004A0771 /* Sources */,
+				0A78108921197E81004A0771 /* Frameworks */,
+				0A78108A21197E81004A0771 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0A78108E21197E81004A0771 /* PBXTargetDependency */,
+			);
+			name = RinkCarUITests;
+			productName = RinkCarUITests;
+			productReference = 0A78108C21197E81004A0771 /* RinkCarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0A78106121197E7F004A0771 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = lly;
+				TargetAttributes = {
+					0A78106821197E7F004A0771 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					0A78108021197E80004A0771 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 0A78106821197E7F004A0771;
+					};
+					0A78108B21197E81004A0771 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 0A78106821197E7F004A0771;
+					};
+				};
+			};
+			buildConfigurationList = 0A78106421197E7F004A0771 /* Build configuration list for PBXProject "RinkCar" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0A78106021197E7F004A0771;
+			productRefGroup = 0A78106A21197E7F004A0771 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0A78106821197E7F004A0771 /* RinkCar */,
+				0A78108021197E80004A0771 /* RinkCarTests */,
+				0A78108B21197E81004A0771 /* RinkCarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0A78106721197E7F004A0771 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A78107921197E80004A0771 /* LaunchScreen.storyboard in Resources */,
+				0A78107621197E80004A0771 /* Assets.xcassets in Resources */,
+				0A78107421197E7F004A0771 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A78107F21197E80004A0771 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A78108A21197E81004A0771 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0A78106521197E7F004A0771 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A7810B421199D03004A0771 /* AGLKContext.m in Sources */,
+				0A7810AD21199A7E004A0771 /* SceneMesh.m in Sources */,
+				0A7810A821199A4E004A0771 /* SceneRinkModel.m in Sources */,
+				0A7810A721199A4E004A0771 /* SceneCarModel.m in Sources */,
+				0A7810B121199AB0004A0771 /* AGLKVertexAttribArrayBuffer.m in Sources */,
+				0A78107121197E7F004A0771 /* ViewController.m in Sources */,
+				0A7810A621199A4E004A0771 /* SceneCar.m in Sources */,
+				0A78107C21197E80004A0771 /* main.m in Sources */,
+				0A7810AE21199A7E004A0771 /* SceneModel.m in Sources */,
+				0A78106E21197E7F004A0771 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A78107D21197E80004A0771 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A78108621197E81004A0771 /* RinkCarTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A78108821197E81004A0771 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A78109121197E81004A0771 /* RinkCarUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0A78108321197E80004A0771 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0A78106821197E7F004A0771 /* RinkCar */;
+			targetProxy = 0A78108221197E80004A0771 /* PBXContainerItemProxy */;
+		};
+		0A78108E21197E81004A0771 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0A78106821197E7F004A0771 /* RinkCar */;
+			targetProxy = 0A78108D21197E81004A0771 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0A78107221197E7F004A0771 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0A78107321197E7F004A0771 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0A78107721197E80004A0771 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0A78107821197E80004A0771 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0A78109321197E81004A0771 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0A78109421197E81004A0771 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0A78109621197E81004A0771 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PW2BL84NY9;
+				INFOPLIST_FILE = RinkCar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lly.RinkCar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0A78109721197E81004A0771 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PW2BL84NY9;
+				INFOPLIST_FILE = RinkCar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lly.RinkCar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0A78109921197E81004A0771 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PW2BL84NY9;
+				INFOPLIST_FILE = RinkCarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lly.RinkCarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RinkCar.app/RinkCar";
+			};
+			name = Debug;
+		};
+		0A78109A21197E81004A0771 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PW2BL84NY9;
+				INFOPLIST_FILE = RinkCarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lly.RinkCarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RinkCar.app/RinkCar";
+			};
+			name = Release;
+		};
+		0A78109C21197E81004A0771 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PW2BL84NY9;
+				INFOPLIST_FILE = RinkCarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lly.RinkCarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RinkCar;
+			};
+			name = Debug;
+		};
+		0A78109D21197E81004A0771 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PW2BL84NY9;
+				INFOPLIST_FILE = RinkCarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lly.RinkCarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RinkCar;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0A78106421197E7F004A0771 /* Build configuration list for PBXProject "RinkCar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A78109321197E81004A0771 /* Debug */,
+				0A78109421197E81004A0771 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A78109521197E81004A0771 /* Build configuration list for PBXNativeTarget "RinkCar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A78109621197E81004A0771 /* Debug */,
+				0A78109721197E81004A0771 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A78109821197E81004A0771 /* Build configuration list for PBXNativeTarget "RinkCarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A78109921197E81004A0771 /* Debug */,
+				0A78109A21197E81004A0771 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A78109B21197E81004A0771 /* Build configuration list for PBXNativeTarget "RinkCarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A78109C21197E81004A0771 /* Debug */,
+				0A78109D21197E81004A0771 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0A78106121197E7F004A0771 /* Project object */;
+}
