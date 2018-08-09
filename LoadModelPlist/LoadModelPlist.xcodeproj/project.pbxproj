@@ -7,6 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A79B98E211BE43E0010BA78 /* armature.modelplist in Resources */ = {isa = PBXBuildFile; fileRef = 0A79B979211BE43E0010BA78 /* armature.modelplist */; };
+		0A79B98F211BE43E0010BA78 /* tube.dae in Resources */ = {isa = PBXBuildFile; fileRef = 0A79B97A211BE43E0010BA78 /* tube.dae */; };
+		0A79B990211BE43E0010BA78 /* bumperCar.skp in Resources */ = {isa = PBXBuildFile; fileRef = 0A79B97B211BE43E0010BA78 /* bumperCar.skp */; };
+		0A79B991211BE43E0010BA78 /* armatureSkin.modelplist in Resources */ = {isa = PBXBuildFile; fileRef = 0A79B97C211BE43E0010BA78 /* armatureSkin.modelplist */; };
+		0A79B992211BE43E0010BA78 /* bumper.modelplist in Resources */ = {isa = PBXBuildFile; fileRef = 0A79B97D211BE43E0010BA78 /* bumper.modelplist */; };
+		0A79B993211BE43E0010BA78 /* bumperRinkWalls.skp in Resources */ = {isa = PBXBuildFile; fileRef = 0A79B97E211BE43E0010BA78 /* bumperRinkWalls.skp */; };
+		0A79B994211BE43E0010BA78 /* texture0.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A79B980211BE43E0010BA78 /* texture0.png */; };
+		0A79B995211BE43E0010BA78 /* bone2.dae in Resources */ = {isa = PBXBuildFile; fileRef = 0A79B981211BE43E0010BA78 /* bone2.dae */; };
+		0A79B996211BE43E0010BA78 /* bone0.dae in Resources */ = {isa = PBXBuildFile; fileRef = 0A79B982211BE43E0010BA78 /* bone0.dae */; };
+		0A79B997211BE43E0010BA78 /* bumperRinkFloor.dae in Resources */ = {isa = PBXBuildFile; fileRef = 0A79B983211BE43E0010BA78 /* bumperRinkFloor.dae */; };
+		0A79B998211BE43E0010BA78 /* bone1.dae in Resources */ = {isa = PBXBuildFile; fileRef = 0A79B984211BE43E0010BA78 /* bone1.dae */; };
+		0A79B999211BE43E0010BA78 /* bone0.skp in Resources */ = {isa = PBXBuildFile; fileRef = 0A79B985211BE43E0010BA78 /* bone0.skp */; };
+		0A79B99A211BE43E0010BA78 /* bumperRinkFloor.skp in Resources */ = {isa = PBXBuildFile; fileRef = 0A79B986211BE43E0010BA78 /* bumperRinkFloor.skp */; };
+		0A79B99B211BE43E0010BA78 /* bone1.skp in Resources */ = {isa = PBXBuildFile; fileRef = 0A79B987211BE43E0010BA78 /* bone1.skp */; };
+		0A79B99C211BE43E0010BA78 /* bumperRinkWalls.dae in Resources */ = {isa = PBXBuildFile; fileRef = 0A79B988211BE43E0010BA78 /* bumperRinkWalls.dae */; };
+		0A79B99D211BE43E0010BA78 /* bone2.skp in Resources */ = {isa = PBXBuildFile; fileRef = 0A79B989211BE43E0010BA78 /* bone2.skp */; };
+		0A79B99E211BE43E0010BA78 /* texture0.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A79B98B211BE43E0010BA78 /* texture0.png */; };
+		0A79B99F211BE43E0010BA78 /* tube.blend in Resources */ = {isa = PBXBuildFile; fileRef = 0A79B98C211BE43E0010BA78 /* tube.blend */; };
+		0A79B9A0211BE43E0010BA78 /* bumperCar.dae in Resources */ = {isa = PBXBuildFile; fileRef = 0A79B98D211BE43E0010BA78 /* bumperCar.dae */; };
 		0A815927211AF9090029C15A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A815926211AF9090029C15A /* AppDelegate.m */; };
 		0A81592A211AF9090029C15A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A815929211AF9090029C15A /* ViewController.m */; };
 		0A81592D211AF9090029C15A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A81592B211AF9090029C15A /* Main.storyboard */; };
@@ -52,6 +71,25 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0A79B979211BE43E0010BA78 /* armature.modelplist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = armature.modelplist; sourceTree = "<group>"; };
+		0A79B97A211BE43E0010BA78 /* tube.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = tube.dae; sourceTree = "<group>"; };
+		0A79B97B211BE43E0010BA78 /* bumperCar.skp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = bumperCar.skp; sourceTree = "<group>"; };
+		0A79B97C211BE43E0010BA78 /* armatureSkin.modelplist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = armatureSkin.modelplist; sourceTree = "<group>"; };
+		0A79B97D211BE43E0010BA78 /* bumper.modelplist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = bumper.modelplist; sourceTree = "<group>"; };
+		0A79B97E211BE43E0010BA78 /* bumperRinkWalls.skp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = bumperRinkWalls.skp; sourceTree = "<group>"; };
+		0A79B980211BE43E0010BA78 /* texture0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = texture0.png; sourceTree = "<group>"; };
+		0A79B981211BE43E0010BA78 /* bone2.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = bone2.dae; sourceTree = "<group>"; };
+		0A79B982211BE43E0010BA78 /* bone0.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = bone0.dae; sourceTree = "<group>"; };
+		0A79B983211BE43E0010BA78 /* bumperRinkFloor.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = bumperRinkFloor.dae; sourceTree = "<group>"; };
+		0A79B984211BE43E0010BA78 /* bone1.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = bone1.dae; sourceTree = "<group>"; };
+		0A79B985211BE43E0010BA78 /* bone0.skp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = bone0.skp; sourceTree = "<group>"; };
+		0A79B986211BE43E0010BA78 /* bumperRinkFloor.skp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = bumperRinkFloor.skp; sourceTree = "<group>"; };
+		0A79B987211BE43E0010BA78 /* bone1.skp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = bone1.skp; sourceTree = "<group>"; };
+		0A79B988211BE43E0010BA78 /* bumperRinkWalls.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = bumperRinkWalls.dae; sourceTree = "<group>"; };
+		0A79B989211BE43E0010BA78 /* bone2.skp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = bone2.skp; sourceTree = "<group>"; };
+		0A79B98B211BE43E0010BA78 /* texture0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = texture0.png; sourceTree = "<group>"; };
+		0A79B98C211BE43E0010BA78 /* tube.blend */ = {isa = PBXFileReference; lastKnownFileType = file; path = tube.blend; sourceTree = "<group>"; };
+		0A79B98D211BE43E0010BA78 /* bumperCar.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = bumperCar.dae; sourceTree = "<group>"; };
 		0A815922211AF9090029C15A /* LoadModelPlist.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoadModelPlist.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A815925211AF9090029C15A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0A815926211AF9090029C15A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -128,6 +166,48 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0A79B978211BE43E0010BA78 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0A79B979211BE43E0010BA78 /* armature.modelplist */,
+				0A79B97A211BE43E0010BA78 /* tube.dae */,
+				0A79B97B211BE43E0010BA78 /* bumperCar.skp */,
+				0A79B97C211BE43E0010BA78 /* armatureSkin.modelplist */,
+				0A79B97D211BE43E0010BA78 /* bumper.modelplist */,
+				0A79B97E211BE43E0010BA78 /* bumperRinkWalls.skp */,
+				0A79B97F211BE43E0010BA78 /* bumperRinkWalls */,
+				0A79B981211BE43E0010BA78 /* bone2.dae */,
+				0A79B982211BE43E0010BA78 /* bone0.dae */,
+				0A79B983211BE43E0010BA78 /* bumperRinkFloor.dae */,
+				0A79B984211BE43E0010BA78 /* bone1.dae */,
+				0A79B985211BE43E0010BA78 /* bone0.skp */,
+				0A79B986211BE43E0010BA78 /* bumperRinkFloor.skp */,
+				0A79B987211BE43E0010BA78 /* bone1.skp */,
+				0A79B988211BE43E0010BA78 /* bumperRinkWalls.dae */,
+				0A79B989211BE43E0010BA78 /* bone2.skp */,
+				0A79B98A211BE43E0010BA78 /* bumperCar */,
+				0A79B98C211BE43E0010BA78 /* tube.blend */,
+				0A79B98D211BE43E0010BA78 /* bumperCar.dae */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		0A79B97F211BE43E0010BA78 /* bumperRinkWalls */ = {
+			isa = PBXGroup;
+			children = (
+				0A79B980211BE43E0010BA78 /* texture0.png */,
+			);
+			path = bumperRinkWalls;
+			sourceTree = "<group>";
+		};
+		0A79B98A211BE43E0010BA78 /* bumperCar */ = {
+			isa = PBXGroup;
+			children = (
+				0A79B98B211BE43E0010BA78 /* texture0.png */,
+			);
+			path = bumperCar;
+			sourceTree = "<group>";
+		};
 		0A815919211AF9090029C15A = {
 			isa = PBXGroup;
 			children = (
@@ -151,6 +231,7 @@
 		0A815924211AF9090029C15A /* LoadModelPlist */ = {
 			isa = PBXGroup;
 			children = (
+				0A79B978211BE43E0010BA78 /* Resources */,
 				0A815A38211B08510029C15A /* Shader */,
 				0A815A35211B08230029C15A /* AGLKAxisAllignedBoundingBox.h */,
 				0A815A36211B08230029C15A /* AGLKContext.h */,
@@ -344,9 +425,28 @@
 			files = (
 				0A815A3B211B08510029C15A /* UtilityArmaturePointLightShader.fsh in Resources */,
 				0A815932211AF90B0029C15A /* LaunchScreen.storyboard in Resources */,
+				0A79B997211BE43E0010BA78 /* bumperRinkFloor.dae in Resources */,
+				0A79B990211BE43E0010BA78 /* bumperCar.skp in Resources */,
+				0A79B995211BE43E0010BA78 /* bone2.dae in Resources */,
 				0A815A3C211B08510029C15A /* UtilityArmaturePointLightShader.vsh in Resources */,
+				0A79B9A0211BE43E0010BA78 /* bumperCar.dae in Resources */,
+				0A79B99E211BE43E0010BA78 /* texture0.png in Resources */,
+				0A79B998211BE43E0010BA78 /* bone1.dae in Resources */,
+				0A79B98E211BE43E0010BA78 /* armature.modelplist in Resources */,
+				0A79B99A211BE43E0010BA78 /* bumperRinkFloor.skp in Resources */,
+				0A79B993211BE43E0010BA78 /* bumperRinkWalls.skp in Resources */,
+				0A79B991211BE43E0010BA78 /* armatureSkin.modelplist in Resources */,
+				0A79B99D211BE43E0010BA78 /* bone2.skp in Resources */,
+				0A79B98F211BE43E0010BA78 /* tube.dae in Resources */,
+				0A79B994211BE43E0010BA78 /* texture0.png in Resources */,
+				0A79B99F211BE43E0010BA78 /* tube.blend in Resources */,
+				0A79B99C211BE43E0010BA78 /* bumperRinkWalls.dae in Resources */,
+				0A79B99B211BE43E0010BA78 /* bone1.skp in Resources */,
 				0A81592F211AF90B0029C15A /* Assets.xcassets in Resources */,
 				0A81592D211AF9090029C15A /* Main.storyboard in Resources */,
+				0A79B999211BE43E0010BA78 /* bone0.skp in Resources */,
+				0A79B992211BE43E0010BA78 /* bumper.modelplist in Resources */,
+				0A79B996211BE43E0010BA78 /* bone0.dae in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
